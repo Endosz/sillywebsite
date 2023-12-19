@@ -90,7 +90,7 @@ function matrix(){
     document.body.style.color="green"
     document.getElementById("tekst2").innerHTML=""
     Id1 = window.setInterval(wypiszLiczby,1)
-    let Id4 = window.setInterval(zmienKolor,14)
+    let Id4 = window.setInterval(zmienKolor,1)
 }
 window.setTimeout("matrix()", 5000);
 
