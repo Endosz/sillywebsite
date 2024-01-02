@@ -1,6 +1,6 @@
 let currentShitters= []
 let exShitters = []
-currentShitters.push("Hutmuncher","NecroStickIsReal","Ducky_Jar")
+currentShitters.push("Hutmuncher","NecroStickIsReal","Ducky_Jar","Lightning_PvP")
 exShitters.push("Endosz")
 function printCurrentShitters(values){
 document.getElementById("current").innerHTML+= `<li> ${values} </li>`
