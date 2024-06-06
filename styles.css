@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #333;
+    overflow-y: auto; /* Allow scrolling */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 20px 0; /* Added top and bottom padding */
+    margin: 0;
+}
+
+.menu li {
+    background-color: #444;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    border-bottom: 1px solid #666;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-weight: 700;
+}
+
+.menu li:last-child {
+    border-bottom: none;
+}
+
+.menu li:hover {
+    background-color: #555;
+}
+
+.menu li::after {
+    content: '▼';
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.menu li.open::after {
+    content: '▲';
+}
+
+.content {
+    display: none;
+    padding: 15px;
+    background-color: #222;
+    color: #fff;
+    max-height: 600px; /* Increased max height */
+    overflow-y: auto;
+}
+
+.content p {
+    margin: 0;
+    line-height: 2.2; /* Increased line height for better readability */
+    max-width: 100%; /* Ensure text doesn't overflow */
+    overflow-wrap: break-word; /* Wrap long words */
+    text-align: center; /* Center text */
+}
