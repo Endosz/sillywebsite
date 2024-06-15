@@ -8,6 +8,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: url('image.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
@@ -74,4 +76,10 @@ h1 {
     max-width: 100%; /* Ensure text doesn't overflow */
     overflow-wrap: break-word; /* Wrap long words */
     text-align: center; /* Center text */
+}
+li{
+background: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    padding: 10px;
+    margin: 5px 0;
+    list-style-type: none; /* Optional: Removes the default bullet points */
 }
