@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+    opacity: 0.95;
     width: 80%;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -77,9 +78,4 @@ h1 {
     overflow-wrap: break-word; /* Wrap long words */
     text-align: center; /* Center text */
 }
-li{
-background: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
-    padding: 10px;
-    margin: 5px 0;
-    list-style-type: none; /* Optional: Removes the default bullet points */
-}
+
